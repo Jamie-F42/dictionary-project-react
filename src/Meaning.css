@@ -1,0 +1,17 @@
+.Meaning {
+    font-size: 22px;
+    line-height: 1.6em;
+    background-color: rgba(145, 206, 161, 0.623);
+    margin: 0 auto;
+    margin-bottom: 28px;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+}
+
+h3{
+    margin: 0 auto;
+    padding-bottom: 18px;
+    padding-top: 4px;
+    font-size: 30px;
+}
