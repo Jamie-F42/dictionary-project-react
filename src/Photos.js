@@ -8,7 +8,7 @@ export default function Photos(props) {
             {props.photos.map(function(photo, index) {
                 return (
                 <div className="PhotoLoop" key={index}>
-                    <a href={photo.src.original} target="_blank" rel="noopener">
+                    <a href={photo.src.original} rel="noopener">
                  <img src={photo.src.tiny} className="img-fluid" />
                  </a> 
                  </div>
