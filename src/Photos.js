@@ -2,6 +2,7 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
+    console.log(props.photos);
     if (props.photos){
     return (
         <div className="Photos">
@@ -9,7 +10,7 @@ export default function Photos(props) {
                 return (
                 <div className="PhotoLoop" key={index}>
                     <a href={photo.src.original} rel="noopener">
-                 <img src={photo.src.tiny} className="img-fluid" />
+                 <img src={photo.src.tiny} className="img-fluid" alt={photo.alt} />
                  </a> 
                  </div>
                 );  
